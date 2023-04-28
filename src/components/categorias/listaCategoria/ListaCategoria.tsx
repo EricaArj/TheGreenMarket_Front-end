@@ -65,7 +65,7 @@ if (token === '') {
                   <Typography variant="h5" component="h2">
                     {categoria.nomeCategoria}
                   </Typography>
-                  <Typography variant="h6" component="h6" >
+                  <Typography variant="h6" component="h6">
                     {categoria.descricaoCategoria}
                   </Typography>
                   
@@ -77,6 +77,7 @@ if (token === '') {
                   </Button>
                   </Link>
                   <Link to={`/deletarCategoria/${categoria.idCategoria}`}>
+                    
                   <Button color="error" variant="contained" size="small">
                     Deletar
                   </Button>
